@@ -10,7 +10,7 @@ function Home() {
           <img  src = {pic1} className = "pic1" alt="pic1"/> 
           <div className="left-title">Discover the <span className="best">Best</span>  Food and Drinks</div>
           <div className="left-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed vehicula nibh. Nulla dapibus id ipsum id egestas. Aliquam enim lacus, vulputate congue libero finibus, bibendum vulputate ipsum.</div>
-          <button className="left-btn">Expolre Now !</button>
+          <button className="left-btn">Explore Now !</button>
        </div>
        <div className="right-part">
           <img className="right-img" src = {pic8} alt="pic2"/>

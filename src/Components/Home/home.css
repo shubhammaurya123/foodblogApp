@@ -19,7 +19,22 @@
    
 }
 .btn-style{
-    display: none;
+    top: 3px;
+    right: 11.5px;
+    position: absolute;
+    width: 150px;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: white;
+    background-color: #E23744;
+    border: 1px solid white;
+    cursor: pointer;
+    
 }
 .pic1{
     margin-top:33px;
@@ -107,17 +122,9 @@ line-height: 69px;
     .pic1{
         display: none;
     }
+  
     .btn-style{
-        position: absolute;
-        width: 64px;
-        height: 27px;
-        top:0;
-        right: 0px;
-        font-weight: 600;
-        font-size: 11px;
-        line-height: 46px;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
+        display: none;
     }
     .left-part{
         width: 100%;
