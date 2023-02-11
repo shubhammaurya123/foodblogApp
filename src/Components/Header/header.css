@@ -1,0 +1,120 @@
+.header{
+    width: 100%;
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-between;
+    height: 75vh;
+    background-color: #eef0f7;
+}
+.header-left-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.header-left-part-img{
+    position: absolute;
+    width: 384px;
+    height: 468px;
+    left: 205px;
+}
+.header-right-part{
+    margin-top: 100px;
+    width: 40%;
+}
+.about{
+
+    margin-top: 10px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 27px;
+    color: #0E2368;
+}
+.header-dec{
+    width: 447px;
+    height: 138px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 20px;
+    color: #444957;
+    order: 1;
+}
+.header-right-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 26px;
+    gap: 20px;
+    width: 132px;
+    height: 42px;
+    border: 1px solid white;
+    background: #E23744;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width: 415px) {
+    .header{
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        margin-left: 100px;
+        background-color: #eef0f7;
+        margin-top: 100px;
+        
+    }
+    .header-left-part-img{
+       display: none;
+    }
+    .header-right-part{
+        width:100%;
+        height: 80%;
+        display: flex;
+        margin-right: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        width: 120px;
+        height: 35px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        color: #0E2368;
+    }
+    .header-dec{
+        width: 250px;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 21px;
+        align-items: center;
+        color: #444957;
+    }
+    .header-right-btn{   
+        flex-direction: row;
+        padding: 4px 20px;
+        gap: 13px;
+        width: 96px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 27px;
+    }
+}
